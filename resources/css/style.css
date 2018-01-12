@@ -123,7 +123,58 @@ p {
 .center-icon { /* it's the middle icon so i can bring the outer two closer */
   margin-left: 5rem;
   margin-right: 5rem;
+}                     /* ICONS DIV END*/
+
+
+                      /* BUTTONS AND INTRODUCTION */
+.buttons-and-paragraphs { /* outer box for buttons and paragraghs */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  
 }
 
+.left-button-and-p, .right-button-and-p {
+  width: 35%;
 
-                      /* ICONS DIV END*/
+}
+
+.left-button-and-p {
+  margin-right: 5%;
+}
+
+.buttons-and-paragraphs span {
+
+  width: 10rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.button {
+  margin-bottom: 1rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  width: 56%;
+}
+                      /* BUTTONS AND INTRODUCTION END */
+
+                      /* FOOTER */
+footer {
+  background-color: azure;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+
+}
+
+.black-logo {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+                      /* FOOTER END */
