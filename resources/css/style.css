@@ -24,8 +24,8 @@ html {
   display: flex;
   justify-content: space-between;
   background-color: cadetblue;
-
-  margin-bottom: 10rem;
+  position: relative;
+  top: 1rem;
 }
 
 .top-left-div { /* left part of bluish nav at the top */
@@ -61,7 +61,7 @@ html {
 }
 
 .jumbotron { /*  big black n' white sign inside the main pic upstairs */
-
+  margin-top: 10rem;
 }
 
 h1 {
@@ -133,7 +133,7 @@ p {
   justify-content: center;
   margin-top: 3rem;
   margin-bottom: 5rem;
-  
+
 }
 
 .left-button-and-p, .right-button-and-p {
@@ -175,6 +175,33 @@ footer div {
 .black-logo {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
-}
+}                      /* FOOTER END */
 
-                      /* FOOTER END */
+@media only screen and (max-width: 786px) {
+  .site-container {
+    width: 750px;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+    line-height: 1.2;
+    padding: 0.75rem 4rem;
+    display: inline;
+    position: relative;
+    float: right;
+    margin-right: 2rem;
+  }
+
+  .jumbotron {
+    margin-top: 5rem;
+  }
+
+  .nav-div {
+    position: static;
+  }
+
+}
